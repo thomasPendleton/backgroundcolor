@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: linear-gradient(to right, #00FF00, #7355aa);
     color: rgb(41, 23, 23, .9);
@@ -24,5 +27,19 @@ h3{
 }
 h4{
     text-align: center;
+    letter-spacing: 1px;
 }
 
+input{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    padding: 0px;
+    border-radius: 3px;
+    /* background-color: black; */
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    
+    
+}
